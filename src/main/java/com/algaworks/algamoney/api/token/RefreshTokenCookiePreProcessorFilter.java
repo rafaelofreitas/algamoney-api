@@ -46,8 +46,6 @@ public class RefreshTokenCookiePreProcessorFilter implements Filter {
 
 	@Override
 	public void destroy() {
-		// TODO Auto-generated method stub
-
 	}
 
 	static class MyServletRequestWrapper extends HttpServletRequestWrapper {
